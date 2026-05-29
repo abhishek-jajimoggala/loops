@@ -94,7 +94,7 @@ for i in range(1,20,2):
         break; '''
 
 #task-4........Attandance based report..............
-students=int(input("Enter the number of students:"))
+'''students=int(input("Enter the number of students:"))
 p=0
 a=0
 for i in range(1,students+1):
@@ -107,5 +107,54 @@ for i in range(1,students+1):
 print("....................Student Attandance Report...................")
 print("Total number of students:",students)
 print("Total presenties:",p)
-print("Total Absenties:",a)
+print("Total Absenties:",a)'''
+
+#..................................................................
+#practice for problem solving of break,continue and pass
+#.............................break()...................
+'''a=2
+while a<=18:
+    a+=1
+    if a==5:
+        break
+    print(a,end=" ")'''
+
+'''a=20
+while a>=10:
+    a-=1
+    print(a,end=" ")
+    if a==15:
+        break'''
+
+'''for i in range(-7,1,1):
+    print(i,end=",")
+    if i==-2:
+        break'''
+'''for i in range(-3,-5):
+    print(i)'''
+
+'''for i in range(3,10,-2):
+    print(i)'''
+#................continue()...............
+'''a=2
+while a<=18:
+    a+=1
+    if a==5:
+        continue
+    print(a,end=" ")'''
+
+'''a=30
+while a>2:
+    a-=1
+    if a==28:
+        continue
+    print(a,end=" ")'''    
+
+'''a=20
+while a<=50:
+    a+=1
+    if a==28:
+        continue
+    print(a,end=" ")'''
+
 
