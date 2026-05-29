@@ -4,3 +4,4 @@ Types of loops:
 3)break
 4)continue
 5)range
+6)pass
